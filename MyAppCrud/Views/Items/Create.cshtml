@@ -1,0 +1,8 @@
+
+@model MyApp.Models.Item
+<h2>Create Item</h2>
+<form asp-action="Create" method="post">
+    <label for="Name">Name</label>
+    <input asp-for="Name" />
+    <button type="submit">Save</button>
+</form>
